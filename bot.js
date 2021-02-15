@@ -120,7 +120,7 @@ const help = `**
 client6.on("message", message => {
 if (message.author.bot) return;
 
- let prefix = "!"
+ let prefix = "&"
 let command = message.content.split(" ")[0];
 command = command.slice(prefix.length);
 
