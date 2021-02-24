@@ -108,14 +108,14 @@ const client98 = new Discord.Client();
 const client99 = new Discord.Client();
 const client100 = new Discord.Client();
 
-const help = `**
+const help = `&
 كۆمانده‌كان:
 
 بۆ زیاد كردنی ڕیاكشن
 !react <Channel ID> <Message ID> <Emoji>
 
 بۆ هێنانه‌ ڤۆیسی هه‌موو بۆته‌كان
-**`;
+&`;
 
 client6.on("message", message => {
 if (message.author.bot) return;
